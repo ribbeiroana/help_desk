@@ -1,0 +1,70 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(to right, white 50%, #3fcdea 50%);
+}
+
+.titulo-login {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 65px;
+    color: #1c9bb5;
+}
+
+.container-fluid {
+    height: 100vh;
+}
+
+.tabela {
+    height: 100%;
+    width: 100%;
+    table-layout: fixed; 
+}
+
+.conteudo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.direito {
+    margin: none;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+.informacoes {
+    border-radius: 25px;
+    width: 70%;
+    background-color: white;
+}
+
+.icone {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.input-login {
+    border-radius: 20px !important;
+    background-color: #efefef;
+}
+
+.botao-entrar {
+    width: 97%;
+    margin: 40px 0px 45px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.margin-select {
+    margin-bottom: 25px !important;
+}

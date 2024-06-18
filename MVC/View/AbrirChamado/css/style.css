@@ -1,0 +1,32 @@
+#card {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;  
+    text-align: center;
+    box-shadow: black;
+
+}
+
+.titulo{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.card-body{
+    margin-top: 30px;
+}
+
+.col button {
+    background-color: #1c9bb5;
+    margin-top: 100px;
+}  
+
+.form-floating {
+    margin-top: 100px;
+    margin-top: 50px;
+
+}
+
+.centralizar {
+    justify-content: center !important;
+}

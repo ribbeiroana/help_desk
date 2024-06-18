@@ -1,0 +1,15 @@
+#header{
+    background-color:   #1c9bb5;
+    padding: 12px;
+}
+
+.nav-link:hover {
+    color: rgb(0, 0, 0) !important;
+}
+
+.botao {
+    background-color: rgb(144, 62, 220) !important;
+    color: white !important;
+    border: 3px solid !important;
+    border-color:rgb(213, 169, 255) !important;
+}

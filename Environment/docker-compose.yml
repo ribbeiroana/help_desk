@@ -1,0 +1,21 @@
+version: '3.3'
+services:
+  php:
+    image: luizalbertoos/meu-php
+    container_name: meu-php
+    ports:
+      - "80:80"
+      - "443-443"
+    volumes:
+      - PATH:/var/www/html
+    links:
+      - db
+  db:
+    image: luizalbertoos/meu-mysql-php
+    container_name: meu-mysql-php
+    ports:
+      - "3308:3306"
+    volumes:
+      - /var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: 'password'
